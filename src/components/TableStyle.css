@@ -1,0 +1,34 @@
+.ratesTable {
+  display: block;
+  overflow: overlay;
+  width: fit-content;
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  font-size: 14px;
+  border: 1px solid #eee;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.ratesTable th {
+  font-weight: bold;
+  padding: 5px;
+  background: #c5cae9;
+  border: 1px solid #dddddd;
+}
+.ratesTable td {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+.ratesTable tr td:first-child,
+.ratesTable tr th:first-child {
+  border-left: none;
+}
+.ratesTable tr td:last-child,
+.ratesTable tr th:last-child {
+  border-right: none;
+}
